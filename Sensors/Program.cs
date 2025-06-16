@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Sensors.Managers;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        InvestigationManager manager = new InvestigationManager();
+        manager.StartGame();
+    }
+}
